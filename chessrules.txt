@@ -1,1 +1,67 @@
-chess is a game played by two players one player plays with the white pieces and the other player plays with the black pieces each player has sixteen pieces at the beginning of the game: a king, a queen, two rooks, two bishops, two knights and eight pawnsthe game is played on a chessboard the chessboard has 64 fields: eight rows and eight columns the fields are alternately colored white and black the board must be laid out so that there is a black field in the lower left corner in order to record moves, all fields have been given namesas seen from the white player's point of view, the rows are numbered 1, 2, 3, 4, 5, 6, 7, 8; the bottom row is numbered 1, and the top row is numbered 8the columns are named: a, b, c, d, e, f, g, hthe name of a square consists of the combination of the letter of its column and the number of its row; for example, the square in the lower left corner (for white) is named a1the players take turns making a move, starting with the white player a move consists of moving one of the player's pieces to another square, according to the rules that say how that piece movesthere is a special exception, which is the castling, where in one move two pieces are moved at the same timea player can capture an opponent's piece by moving one of his own pieces to the square that contains an opponent's piece the opponent's piece is then removed from the board and is out of play for the rest of the game capturing is not mandatoryat the start of the game, the arrangement of the pieces is as followsso, on the second row there are eight white pawns; on the seventh row there are eight black pawnson the first row, from left to right, there are: a rook, knight, bishop, lady, king, bishop, knight and rooknote that in the initial setup, ladies stand on squares of their own color, and each player has a black square in the lower left cornerthe tower moves in a straight horizontal or vertical linethe tower may not jump over other pieces.all squares between the square where the tower begins its move and where the tower ends its move must be empty as with all pieces, if the square where the rook ends its move contains an opponent's piece, this piece is capturedthe square where the rook ends its move must not contain a piece belonging to the player who also has this towerthe bishop moves in a straight diagonal linethe runner may also not jump over other piecesthe lady has the combined capabilities of the rook and bishop the lady can move in a horizontal, vertical or diagonal straight line again, the lady may not jump over other pieces the horse makes a move that consists of first one step in a horizontal or vertical direction and then one step diagonally �outward' the move can also be described as: two steps horizontally and one step vertically or two steps vertically and one step horizontally the horse jumps: it is allowed that the square which the horse passes in its move contains any piece for example, white can start the game by moving his knight from b1 to c3 horses can jump over squares with a white piece, with a black piece, and also over empty squares when a horse jumps over a piece, it has no effect on the piece being jumped over; as with the other pieces, a horse captures an opponent's piece by moving to the square containing that piecethe pawn's moves differ depending on whether the pawn moves to an empty square, or it captures an opponent's piece when a pawn does not capture, it moves one step straight ahead if a pawn has not yet run at all, the pawn is still on the second row, then the pawn may take a double step straight forward for example, a pawn or d2 can be moved to d4, provided field d3 is emptythe pawn strikes one space diagonally forward.the king moves a square in any direction: horizontally, vertically or diagonallythere is a special type of move, which is done by a king and a rook at the same time: the rokadethe king is the most important time of the game, and one must never make moves so that the king is in check at the end of a moveif certain conditions are met, then the king and the rook can perform the castling move this is a special kind of move, where both the king and the rook are movedeach of the following conditions must be met if a player wants to castthe king doing the castling has not yet moved during the gamethe rook doing the castling has not yet moved during the gamethe king is not in checkthe king does not cross a square that is attacked by an enemy piece during the castling; when a player casts, there must not be an opponent's piece that can move to a square that the king crossesthe king does not move to a square attacked by an enemy piece; the king may not be in check after the castlingall squares between the rook and the king are empty for the castlingthe king and the rook are on the same rowat the castling, the king moves two spaces in the direction of the rook, and the rook moves over the king to the next spacethe white king on e1 and the rook on a1 go to: king c1, rook d1 long castling, the white king on e1 and the white rook on d1 go to: king g1, rook f1 short castling; similarly for black
+﻿chess is a game played by two players 
+one player plays with the white pieces and the other player plays with the black pieces 
+each player has sixteen pieces at the beginning of the game: a king, a queen, two rooks, two bishops, two knights and eight pawns
+the game is played on a chessboard 
+the chessboard has 64 fields: eight rows and eight columns 
+the fields are alternately colored white and black 
+the board must be laid out so that there is a black field in the lower left corner 
+in order to record moves, all fields have been given names
+as seen from the white player's point of view, the rows are numbered 1, 2, 3, 4, 5, 6, 7, 8; the bottom row is numbered 1, and the top row is numbered 8
+the columns are named: a, b, c, d, e, f, g, h
+the name of a square consists of the combination of the letter of its column and the number of its row; for example, the square in the lower left corner (for white) is named a1
+
+the players take turns making a move, starting with the white player 
+a move consists of moving one of the player's pieces to another square, according to the rules that say how that piece moves
+there is a special exception, which is the castling, where in one move two pieces are moved at the same time
+a player can capture an opponent's piece by moving one of his own pieces to the square that contains an opponent's piece 
+the opponent's piece is then removed from the board and is out of play for the rest of the game capturing is not mandatory
+at the start of the game, the arrangement of the pieces is as follows
+
+so, on the second row there are eight white pawns; on the seventh row there are eight black pawns
+on the first row, from left to right, there are: a rook, knight, bishop, lady, king, bishop, knight and rook
+note that in the initial setup, ladies stand on squares of their own color, and each player has a black square in the lower left corner
+
+
+the tower moves in a straight horizontal or vertical line
+the tower may not jump over other pieces.
+all squares between the square where the tower begins its move and where the tower ends its move must be empty 
+as with all pieces, if the square where the rook ends its move contains an opponent's piece, this piece is captured
+the square where the rook ends its move must not contain a piece belonging to the player who also has this tower
+
+the bishop moves in a straight diagonal line
+the runner may also not jump over other pieces
+
+the lady has the combined capabilities of the rook and bishop 
+the lady can move in a horizontal, vertical or diagonal straight line 
+again, the lady may not jump over other pieces 
+
+the horse makes a move that consists of first one step in a horizontal or vertical direction and then one step diagonally ԯutward' 
+the move can also be described as: two steps horizontally and one step vertically or two steps vertically and one step horizontally 
+the horse jumps: it is allowed that the square which the horse passes in its move contains any piece 
+for example, white can start the game by moving his knight from b1 to c3 
+horses can jump over squares with a white piece, with a black piece, and also over empty squares 
+when a horse jumps over a piece, it has no effect on the piece being jumped over; as with the other pieces, a horse captures an opponent's piece by moving to the square containing that piece
+
+the pawn's moves differ depending on whether the pawn moves to an empty square, or it captures an opponent's piece 
+when a pawn does not capture, it moves one step straight ahead 
+if a pawn has not yet run at all, the pawn is still on the second row, then the pawn may take a double step straight forward 
+for example, a pawn or d2 can be moved to d4, provided field d3 is empty
+the pawn strikes one space diagonally forward.
+
+
+the king moves a square in any direction: horizontally, vertically or diagonally
+there is a special type of move, which is done by a king and a rook at the same time: the rokade
+the king is the most important time of the game, and one must never make moves so that the king is in check at the end of a move
+
+if certain conditions are met, then the king and the rook can perform the castling move 
+this is a special kind of move, where both the king and the rook are moved
+each of the following conditions must be met if a player wants to cast
+the king doing the castling has not yet moved during the game
+the rook doing the castling has not yet moved during the game
+the king is not in check
+the king does not cross a square that is attacked by an enemy piece during the castling; when a player casts, there must not be an opponent's piece that can move to a square that the king crosses
+the king does not move to a square attacked by an enemy piece; the king may not be in check after the castling
+all squares between the rook and the king are empty for the castling
+the king and the rook are on the same row
+at the castling, the king moves two spaces in the direction of the rook, and the rook moves over the king to the next space
+the white king on e1 and the rook on a1 go to: king c1, rook d1 long castling, the white king on e1 and the white rook on d1 go to: king g1, rook f1 short castling; similarly for black
