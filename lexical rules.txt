@@ -1,0 +1,203 @@
+S -> ADVP CO NP VP SY
+S -> ADVP CO PP CO NP VP SY
+S -> ADVP NP VP
+S -> ADVP NP VP SY
+S -> CC ADVP NP VP SY
+S -> CC NP VP SY
+S -> IN NP VP SY
+S -> NP CO NP VP SY
+S -> NP ADVP VP
+S -> NP VP
+S -> NP VP SY
+S -> PP CO NP VP SY
+S -> PP NP VP
+S -> PP NP VP SY
+S -> RB NP VP SY
+S -> VP
+S -> VP SY
+CO -> ','
+SY -> '!'
+SY -> '.'
+SY -> '?'
+ADJP -> ADJP PP
+ADJP -> IN JJ
+ADJP -> JJ
+ADJP -> JJ SY
+ADJP -> JJ CC JJ
+ADJP -> JJ CC JJ CO PP
+ADJP -> JJ JJ
+ADJP -> JJR
+ADJP -> NP JJR
+ADJP -> RB JJ
+ADJP -> RB JJ PP
+ADJP -> WHADVP JJ
+ADVP -> CC
+ADVP -> NP IN
+ADVP -> NP RB
+ADVP -> RB
+ADVP -> RB PP
+ADVP -> RBR
+CONJP -> RB RB IN
+FRAG -> WHADVP ADJP
+INTJ -> NN SY
+NP -> ADJP DT NN
+NP -> ADJP NN
+NP -> ADJP NNS
+NP -> CD
+NP -> CD CD NNS
+NP -> DT
+NP -> DT ADJP NN
+NP -> DT JJ
+NP -> DT JJ JJ NN
+NP -> DT JJ NN
+NP -> DT JJ NNS
+NP -> DT JJS NNS
+NP -> DT NN
+NP -> DT NN NN
+NP -> DT NNP
+NP -> DT NNS
+NP -> DT NNS CC NNS
+NP -> DT RB JJ NN
+NP -> EX
+NP -> JJ
+NP -> JJ JJ NNS
+NP -> JJ NN
+NP -> JJ NNP NNP
+NP -> JJ NNS
+NP -> NN
+NP -> NN CC NN
+NP -> NN RB
+NP -> NNP
+NP -> NNP NNP
+NP -> NNS
+NP -> NP CO NP
+NP -> NP CC NP
+NP -> NP CC RB
+NP -> NP CONJP NP
+NP -> NP NP
+NP -> NP NP SY
+NP -> NP PP
+NP -> PDT DT NN
+NP -> PDT DT NNS
+NP -> PRP
+NP -> PRPS JJ NN
+NP -> PRPS JJ NNS
+NP -> PRPS NN
+NP -> PRPS NN NN
+NP -> PRPS NN S
+NP -> PRPS NNS
+NP -> PRPS NNS CC NNS
+NP -> RB
+NP -> RB DT NN
+NP -> RB PDT DT JJ NNS
+NP -> WP
+NP-TMP -> CD NN
+PP -> ADVP IN NP
+PP -> CC NP
+PP -> IN
+PP -> IN NP
+PP -> IN PP
+PP -> NP IN NP
+PP -> TO NP
+PRT -> RB
+PRT -> RP
+SBAR -> IN S
+SBAR -> S
+SBAR -> WHADVP S
+SBAR -> WHNP S
+SBAR -> WHPP S
+SBARQ -> SBARQ CC SBARQ
+SBARQ -> WHNP SQ
+SBARQ -> WHNP SQ SY
+SQ -> MD NP VP
+SQ -> MD NP VP SY
+SQ -> SBAR CO MD NP VP SY
+SQ -> VBP NP SBAR
+SQ -> VBP NP VP
+SQ -> VBZ NP
+UCP -> ADJP CO CC VP
+VP -> MD ADVP VP
+VP -> MD RB VP
+VP -> MD VP
+VP -> NP ADJP
+VP -> TO VP
+VP -> VB
+VP -> VB ADJP
+VP -> VB CC VB NP
+VP -> VB CC VB PP
+VP -> VB NP
+VP -> VB NP ADVP
+VP -> VB NP NP
+VP -> VB NP PP
+VP -> VB PP
+VP -> VB PP PP
+VP -> VB PRT PP NP
+VP -> VB VP
+VP -> VBD
+VP -> VBD ADJP
+VP -> VBD ADVP PP
+VP -> VBD ADVP VP
+VP -> VBD NP
+VP -> VBD NP PP
+VP -> VBD PP
+VP -> VBD PP NP
+VP -> VBD PP PP
+VP -> VBD PRT PP
+VP -> VBD RB ADJP
+VP -> VBD RB VP
+VP -> VBD UCP
+VP -> VBD VP
+VP -> VBG
+VP -> VBG CC VBG NP
+VP -> VBG NP
+VP -> VBG NP PP
+VP -> VBG PP
+VP -> VBN
+VP -> VBN NP
+VP -> VBN NP PP
+VP -> VBN PP
+VP -> VBN PP CO ADJP
+VP -> VBN VP
+VP -> VBP ADVP ADVP
+VP -> VBP NP
+VP -> VBP PP
+VP -> VBP VP
+VP -> VBZ ADJP
+VP -> VBZ ADJP PP
+VP -> VBZ NP
+VP -> VP CO CC VP
+VP -> VP CC VP
+VP -> VP CC VP CO CC VP
+WHADVP -> WRB
+WHNP -> WDT
+WHNP -> WP
+WHNP -> WPS NN
+
+JJ -> 'ï'| 'white'| 'other'| 'black'| 'sixteen'| 'queen'| 'numbered'| 'top'| 'square'| 'special'| 'same'| 'own'| 'mandatory'| 'second'| 'seventh'| 'first'| 'initial'| 'straight'| 'vertical'| 'empty'| 'diagonal'| 'combined'| 'double'| 'important'| 'certain'| 'following'| 'enemy'| 'next'| 'f1'| 'short'
+NNP -> '»'| 'Ô¯utward'
+NN -> 'chess'| 'game'| 'player'| 'beginning'| 'king'| 'chessboard'| 'board'| 'field'| 'corner'| 'order'| 'record'| 'point'| 'view'| 'bottom'| 'row'| 'columns'| 'b'| 'c'| 'd'| 'e'| 'f'| 'g'| 'h'| 'name'| 'combination'| 'letter'| 'column'| 'number'| 'example'| 'square'| 'a1'| 'move'| 'exception'| 'castling'| 'time'| 'opponent'| 'piece'| 'play'| 'rest'| 'capturing'| 'start'| 'arrangement'| 'rook'| 'knight'| 'bishop'| 'lady'| 'note'| 'setup'| 'color'| 'tower'| 'horizontal'| 'line'| 'belonging'| 'runner'| 'jump'| 'horse'| 'step'| 'direction'| 'jumps'| 'b1'| 'effect'| 'pawn'| 'd2'| 'd3'| 'space'| 'type'| 'rokade'| 'check'| 'end'| 'kind'| 'e1'| 'c1'| 'd1'| 'g1'
+VBZ -> 'is'| 'plays'| 'has'| 'consists'| 'piece'| 'contains'| 'follows'| 'begins'| 'ends'| 'moves'| 'makes'| 'passes'| 'captures'| 'does'| 'strikes'| 'wants'| 'casts'
+DT -> 'a'| 'the'| 'each'| 'all'| 'another'| 'that'| 'an'| 'this'| 'any'| 'no'
+VBN -> 'played'| 'colored'| 'laid'| 'been'| 'given'| 'seen'| 'named'| 'moved'| 'removed'| 'left'| 'captured'| 'described'| 'allowed'| 'run'| 'provided'| 'done'| 'met'| 'attacked'
+IN -> 'by'| 'with'| 'at'| 'of'| 'on'| 'that'| 'in'| 'as'| 'from'| 'for'| 'out'| 'over'| 'between'| 'if'| 'whether'| 'during'| 'after'
+CD -> 'two'| 'one'| 'eight'| '64'| '1'| '2'| '3'| '4'| '5'| '6'| '7'| '8'
+NNS ->'players'| 'pieces'| 'plays'| 'rooks'| 'bishops'| 'knights'| 'pawns'| 'fields'| 'rows'| 'columns'| 'moves'| 'names'| 'turns'| 'rules'| 'ladies'| 'squares'| 'capabilities'| 'steps'| 'horses'| 'conditions'| 'crosses'| 'spaces'
+CC ->'and'| 'or'
+
+VBP ->'are'| 'have'| 'take'| 'say'| 'stand'| 'differ'| 'go'
+RB -> 'alternately'| 'so'| 'then'| 'not'| 'right'| 'also'| 'again'| 'diagonally'| 'horizontally'| 'vertically'| 'over'| 'straight'| 'ahead'| 'yet'| 'still'| 'forward'| 'never'| 'long'| 'similarly'
+MD -> 'must'| 'can'| 'may'
+VB -> 'be'| 'capture'| 'jump'| 'contain'| 'move'| 'start'| 'c3'| 'take'| 'd4'| 'make'| 'perform'| 'cast'| 'cross'| 'rook'
+RP -> 'out'| 'over'
+EX -> 'there'
+JJR -> 'lower'| 'tower'
+VBD -> 'left'| 'jumped'
+TO ->'to'
+PRP -> 'its'| 'his'| 'their'
+VBG -> 'making'| 'starting'| 'moving'| 'according'| 'being'| 'containing'| 'depending'| 'doing'| 'king'
+WDT -> 'that'| 'which'
+WRB -> 'how'| 'where'| 'when'
+WP -> 'who'
+PRP ->'it'
+RBS -> 'most'
+PDT -> 'both'
