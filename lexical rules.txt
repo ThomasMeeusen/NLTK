@@ -173,9 +173,15 @@ WHNP -> WDT
 WHNP -> WP
 WHNP -> WPS NN
 
-JJ -> 'ï'| 'white'| 'other'| 'black'| 'sixteen'| 'queen'| 'numbered'| 'top'| 'square'| 'special'| 'same'| 'own'| 'mandatory'| 'second'| 'seventh'| 'first'| 'initial'| 'straight'| 'vertical'| 'empty'| 'diagonal'| 'combined'| 'double'| 'important'| 'certain'| 'following'| 'enemy'| 'next'| 'f1'| 'short'
-NNP -> '»'| 'Ô¯utward'
-NN -> 'chess'| 'game'| 'player'| 'beginning'| 'king'| 'chessboard'| 'board'| 'field'| 'corner'| 'order'| 'record'| 'point'| 'view'| 'bottom'| 'row'| 'columns'| 'b'| 'c'| 'd'| 'e'| 'f'| 'g'| 'h'| 'name'| 'combination'| 'letter'| 'column'| 'number'| 'example'| 'square'| 'a1'| 'move'| 'exception'| 'castling'| 'time'| 'opponent'| 'piece'| 'play'| 'rest'| 'capturing'| 'start'| 'arrangement'| 'rook'| 'knight'| 'bishop'| 'lady'| 'note'| 'setup'| 'color'| 'tower'| 'horizontal'| 'line'| 'belonging'| 'runner'| 'jump'| 'horse'| 'step'| 'direction'| 'jumps'| 'b1'| 'effect'| 'pawn'| 'd2'| 'd3'| 'space'| 'type'| 'rokade'| 'check'| 'end'| 'kind'| 'e1'| 'c1'| 'd1'| 'g1'
+
+
+
+
+
+
+JJ ->  'white'| 'other'| 'black'| 'sixteen'| 'queen'| 'numbered'| 'top'| 'square'| 'special'| 'same'| 'own'| 'mandatory'| 'second'| 'seventh'| 'first'| 'initial'| 'straight'| 'vertical'| 'empty'| 'diagonal'| 'combined'| 'double'| 'important'| 'certain'| 'following'| 'enemy'| 'next'| 'f1'| 'short'
+NNP ->  'outward'
+NN -> 'chess'| 'game'| 'player'| 'beginning'| 'king'| 'chessboard'| 'board'| 'field'| 'corner'| 'order'| 'record'| 'point'| 'view'| 'bottom'| 'row'| 'columns'| 'b'| 'c'| 'd'| 'e'| 'f'| 'g'| 'h'| 'name'| 'combination'| 'letter'| 'column'| 'number'| 'example'| 'square'| 'a1'| 'move'| 'exception'| 'castling'| 'time'| 'opponent'| 'piece'| 'play'| 'rest'| 'capturing'| 'start'| 'arrangement'| 'rook'| 'knight'| 'bishop'| 'lady'| 'note'| 'setup'| 'color'| 'tower'| 'horizontal'| 'line'| 'belonging'| 'runner'| 'jump'| 'horse'| 'step'| 'direction'| 'jumps'| 'b1'| 'effect'| 'pawn'| 'd2'| 'd3'| 'space'| 'type'| 'rokade'| 'check'| 'end'| 'kind'| 'e1'| 'c1'| 'd1'| 'g1' | 'c3' | 'd4'
 VBZ -> 'is'| 'plays'| 'has'| 'consists'| 'piece'| 'contains'| 'follows'| 'begins'| 'ends'| 'moves'| 'makes'| 'passes'| 'captures'| 'does'| 'strikes'| 'wants'| 'casts'
 DT -> 'a'| 'the'| 'each'| 'all'| 'another'| 'that'| 'an'| 'this'| 'any'| 'no'
 VBN -> 'played'| 'colored'| 'laid'| 'been'| 'given'| 'seen'| 'named'| 'moved'| 'removed'| 'left'| 'captured'| 'described'| 'allowed'| 'run'| 'provided'| 'done'| 'met'| 'attacked'
@@ -187,7 +193,7 @@ CC ->'and'| 'or'
 VBP ->'are'| 'have'| 'take'| 'say'| 'stand'| 'differ'| 'go'
 RB -> 'alternately'| 'so'| 'then'| 'not'| 'right'| 'also'| 'again'| 'diagonally'| 'horizontally'| 'vertically'| 'over'| 'straight'| 'ahead'| 'yet'| 'still'| 'forward'| 'never'| 'long'| 'similarly'
 MD -> 'must'| 'can'| 'may'
-VB -> 'be'| 'capture'| 'jump'| 'contain'| 'move'| 'start'| 'c3'| 'take'| 'd4'| 'make'| 'perform'| 'cast'| 'cross'| 'rook'
+VB -> 'be'| 'capture'| 'jump'| 'contain'| 'move'| 'start'|  'take'| 'd4'| 'make'| 'perform'| 'cast'| 'cross'| 'rook'
 RP -> 'out'| 'over'
 EX -> 'there'
 JJR -> 'lower'| 'tower'
