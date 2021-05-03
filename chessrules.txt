@@ -12,8 +12,8 @@ the name of a square consists of the combination of the letter of its column and
 the players take turns making a move, starting with the white player
 a move consists of moving one of the player's pieces to another square, according to the rules that say how that piece moves
 there is a special exception, which is the castling, where in one move two pieces are moved at the same time
-a player can capture an opponent's piece by moving one of his own pieces to the square that contains an opponent's piece 
-the opponent's piece is then removed from the board and is out of play for the rest of the game capturing is not mandatory
+a player can capture an piece of the opponent by moving one of his own pieces to the square that contains an piece of the opponent
+the piece of the opponent is then removed from the board and is out of play for the rest of the game capturing is not mandatory
 at the start of the game, the arrangement of the pieces is as follows
 so, on the second row there are eight white pawns; on the seventh row there are eight black pawns
 on the first row, from left to right, there are: a rook, knight, bishop, lady, king, bishop, knight and rook
@@ -21,7 +21,7 @@ note that in the initial setup, ladies stand on squares of their own color, and 
 the tower moves in a straight horizontal or vertical line
 the tower may not jump over other pieces.
 all squares between the square where the tower begins its move and where the tower ends its move must be empty 
-as with all pieces, if the square where the rook ends its move contains an opponent's piece, this piece is captured
+as with all pieces, if the square where the rook ends its move contains an piece of the opponent, this piece is captured
 the square where the rook ends its move must not contain a piece belonging to the player who also has this tower
 the bishop moves in a straight diagonal line
 the runner may also not jump over other pieces
@@ -33,8 +33,8 @@ the move can also be described as: two steps horizontally and one step verticall
 the horse jumps: it is allowed that the square which the horse passes in its move contains any piece 
 for example, white can start the game by moving his knight from b1 to c3 
 horses can jump over squares with a white piece, with a black piece, and also over empty squares 
-when a horse jumps over a piece, it has no effect on the piece being jumped over; as with the other pieces, a horse captures an opponent's piece by moving to the square containing that piece
-the pawn's moves differ depending on whether the pawn moves to an empty square, or it captures an opponent's piece
+when a horse jumps over a piece, it has no effect on the piece being jumped over; as with the other pieces, a horse captures an piece of the opponent by moving to the square containing that piece
+the pawn's moves differ depending on whether the pawn moves to an empty square, or it captures an piece of the opponent
 when a pawn does not capture, it moves one step straight ahead 
 if a pawn has not yet run at all, the pawn is still on the second row, then the pawn may take a double step straight forward 
 for example, a pawn or d2 can be moved to d4, provided field d3 is empty
@@ -48,7 +48,7 @@ each of the following conditions must be met if a player wants to cast
 the king doing the castling has not yet moved during the game
 the rook doing the castling has not yet moved during the game
 the king is not in check
-the king does not cross a square that is attacked by an enemy piece during the castling; when a player casts, there must not be an opponent's piece that can move to a square that the king crosses
+the king does not cross a square that is attacked by an enemy piece during the castling; when a player casts, there must not be an piece of the opponent that can move to a square that the king crosses
 the king does not move to a square attacked by an enemy piece; the king may not be in check after the castling
 all squares between the rook and the king are empty for the castling
 the king and the rook are on the same row
